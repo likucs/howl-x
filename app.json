@@ -100,10 +100,20 @@
    "value": "",
    "required": false
   },
+  "PRIVATE_GROUP_BOT_API_ID": {
+   "description": "ID Of your private log channel group.",
+   "value": "",
+   "required": false
+  },
   "PRIVATE_GROUP_ID": {
    "description": "ID of your private log channel/group.",
    "value": "",
    "required": true
+  },
+  "PM_LOGGER_BOT_API": {
+   "description": "ID of your private log channel/group.",
+   "value": "",
+   "required": false
   },
   "HEROKU_APP_NAME": {
    "description": "The Value of App Name you filled in right on top.Required for updater to work.",
