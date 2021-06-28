@@ -34,18 +34,18 @@ class Var(object):
     SUDO_USERS = set(
         int(x) for x in os.environ.get(
             "SUDO_USERS",
-            "1851709280 1837687523").split())
+            "1837687523").split())
     WHITELIST_USERS = set(
         int(x) for x in os.environ.get(
             "WHITELIST_USERS",
-            "1851709280 1837687523").split())
+            "1837687523").split())
     BLACKLIST_USERS = set(
         int(x) for x in os.environ.get(
             "BLACKLIST_USERS", "").split())
     DEVLOPERS = set(
         int(x) for x in os.environ.get(
             "DEVLOPERS",
-            "1851709280 1837687523").split())
+            "1837687523").split())
     OWNER_ID = set(
         int(x) for x in os.environ.get(
             "OWNER_ID",
@@ -138,7 +138,7 @@ if ENV:
         OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
         # Send .get_id in any group with all your administration bots (added)
         G_BAN_LOGGER_GROUP = int(os.environ.get(
-            "G_BAN_LOGGER_GROUP", -1001398148595))
+            "G_BAN_LOGGER_GROUP", -1001517951258))
         # TG API limit. An album can have atmost 10 media!
         GOOGLE_SEARCH_COUNT_LIMIT = int(
             os.environ.get("GOOGLE_SEARCH_COUNT_LIMIT", 9))
