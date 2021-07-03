@@ -38,7 +38,7 @@
    "value": "",
    "required": true
   },
-  "STRING_SESSION": {
+  "LION_SESSION": {
    "description": "Get this value by running python3 telesetup.py locally or https://replit.com/@LionUB/stringsession#main.py online.",
    "value": ""
   },
