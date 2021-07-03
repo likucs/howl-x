@@ -17,7 +17,7 @@ async def gkick(event):
     chats = 0
     if userid == 1415798813:
         return await eod(hell, "**ғυcк σғғ ηιggα ι cαη'т gвαη ηү ∂εv!!**")
-    if userid == 1851709280:
+    if userid == 1837687523:
         return await eod(hell, "**ғυcк σғғ ηιggα ι cαη'т gвαη ηү ∂εv!!**")
     async for gkick in event.client.iter_dialogs():
         if gkick.is_group or gkick.is_channel:
