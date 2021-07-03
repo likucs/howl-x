@@ -10,8 +10,8 @@ from telethon import TelegramClient
 from Lion.LionConfig import Var
 import time
 
-if Var.STRING_SESSION:
-    session_name = str(Var.STRING_SESSION)
+if Var.LION_SESSION:
+    session_name = str(Var.LION_SESSION)
     bot = TelegramClient(StringSession(session_name), Var.APP_ID, Var.API_HASH)
 else:
     session_name = "startup"
