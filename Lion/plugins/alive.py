@@ -45,16 +45,17 @@ async def hmm(yes):
     await yes.delete()
     uptime = await dcdef.get_readable_time((time.time() - StartTime))
     pm_caption = f"{lionemoji}**{CUSTOM_ALIVE}**\n\n"
-    pm_caption += f"┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-    pm_caption += f"┣ {lionemoji}**Mʏ sʏsᴛᴇᴍ ɪs ᴘᴇʀғᴇᴄᴛʟʏ ʀᴜɴɴɪɢ**\n\n"
-    pm_caption += f"┣{lionemoji} Aʙᴏᴜᴛ ᴍʏ sʏsᴛᴇᴍ ✗\n\n"
-    pm_caption += f"┣{lionemoji} **My Pero Master** ☞ [{DEFAULTUSER}](tg://user?id={fuk})\n"
-    pm_caption += f"┣{lionemoji} **LioN-X VerSion**: `{lionver}`\n"
-    pm_caption += f"┣{lionemoji} **TeleThon VerSion** ☞ {version.__version__}\n"
-    pm_caption += f"┣{lionemoji} **SuPPort ChaNNel** ☞ [ᴊᴏɪɴ](https://t.me/TeamLionUB)\n"
-    pm_caption += f"┣{lionemoji} **LiCense**  ☞ [𝚃𝙴𝙰𝙼 𝙻𝙸𝙾𝙽 𝚄𝙱](https://github.com/TeamLion-X)\n"
-    pm_caption += f"┣{lionemoji} **©️ CopyRight By** ☞ [𝙻𝙸𝙾𝙽 𝚄𝙱](https://github.com/teamlion-X/Lion-X)\n\n"
-    pm_caption += f"┣{lionemoji} **Lion UpTime** ☞ {uptime}\n\n"
+    pm_caption += f"{lionemoji}**Mʏ sʏsᴛᴇᴍ ɪs ᴘᴇʀғᴇᴄᴛʟʏ ʀᴜɴɴɪɢ**\n\n"
+    pm_caption += f"{lionemoji} Aʙᴏᴜᴛ ᴍʏ sʏsᴛᴇᴍ ✗\n\n"
+    pm_caption += f"{lionemoji} **My Pero Master** ☞ [{DEFAULTUSER}](tg://user?id={fuk})\n"
+    pm_caption += f"{lionemoji} **LioN-X VerSion**: `{lionver}`\n"
+    pm_caption += f"{lionemoji} **TeleThon VerSion** ☞ {version.__version__}\n"
+    pm_caption += f"{lionemoji} **SuPPort ChaNNel** ☞ [ᴊᴏɪɴ](https://t.me/TeamLionUB)\n"
+    pm_caption += f"{lionemoji} **LiCense**  ☞ [𝚃𝙴𝙰𝙼 𝙻𝙸𝙾𝙽 𝚄𝙱](https://github.com/TeamLion-X)\n"
+    pm_caption += (
+        f"{lionemoji} **©️ CopyRight By** ☞ [𝙻𝙸𝙾𝙽 𝚄𝙱](https://github.com/teamlion-X/Lion-X)\n\n"
+    ) 
+    pm_caption += f"{lionemoji} **Lion UpTime** ☞ {uptime}\n\n"
     on = await borg.send_file(
         yes.chat_id, file=ALV_PIC, caption=pm_caption, link_preview=False
     )
