@@ -1,5 +1,5 @@
 #    Lion - UserBot
-#    Copyright (C) 2020 Lion
+#    Copyright (C) 2021 Lion
 
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
@@ -87,9 +87,6 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             rev_text = query[::-1]
             but = [[custom.Button.inline("💬 Oᴘᴇɴ ʜᴇʟᴘ ᴍᴇɴᴜ »»", data="menu")]]
             but += [[custom.Button.inline("💡 Pɪɴɢ »»", data="pkng")]]
-            but += [[Button.url("Mʏ ᴍᴀsᴛᴇʀ »»", "tg://user?id={fuk})")]]
-            but += [[custom.Button.inline("Mᴀsᴛᴇʀ•ᴛᴏᴏʟs", data="mtools")]]
-            but += [[custom.Button.inline("Iɴʟɪɴᴇ", data="linline")]]
             but += [[Button.url("🔰 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ »»", "t.me/LionXsupport"), Button.url("🔰 Uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ", "t.me/LionXupdates")]]
             result = builder.photo(
                 file=HELP_PIC,
@@ -148,19 +145,19 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 buttons=[
                     [
                         custom.Button.url(
-                            "🚑 Support Group 🚑", "https://t.me/lionXsupport"
+                            "🎇 Support Group 🎇", "https://t.me/lionXsupport"
                         )
                     ],
                     [
                         custom.Button.url(
-                            "👨‍💻Source Code‍💻", "https://github.com/Mdnoor786/Lion-X"
+                            "🎆Source Code🎆", "https://github.com/Mdnoor786/Lion-X"
                         ),
                         custom.Button.url(
                             "Deploy 🌀",
                             "https://heroku.com/deploy?template=https://github.com/Mdnoor786/Lion-X",
                         ),
                     ],
-                    [custom.Button.url("Updates ↗️", "https://t.me/LionHelpChat")],
+                    [custom.Button.url("Updates 🔺", "https://t.me/LionXSupport")],
                 ],
                 link_preview=False,
             )
