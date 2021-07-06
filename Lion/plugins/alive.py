@@ -50,7 +50,7 @@ async def hmm(yes):
     pm_caption += f"{lionemoji} **My Pero Master** ☞ [{DEFAULTUSER}](tg://user?id={fuk})\n"
     pm_caption += f"{lionemoji} **LioN-X VerSion**: `{lionver}`\n"
     pm_caption += f"{lionemoji} **TeleThon VerSion** ☞ {version.__version__}\n"
-    pm_caption += f"{lionemoji} **SuPPort ChaNNel** ☞ [ᴊᴏɪɴ](https://t.me/TeamLionUB)\n"
+    pm_caption += f"{lionemoji} **SuPPort ChaNNel** ☞ [ᴊᴏɪɴ](https://t.me/LionXUpdates)\n"
     pm_caption += f"{lionemoji} **LiCense**  ☞ [𝚃𝙴𝙰𝙼 𝙻𝙸𝙾𝙽 𝚄𝙱](https://github.com/TeamLion-X)\n"
     pm_caption += (
         f"{lionemoji} **©️ CopyRight By** ☞ [𝙻𝙸𝙾𝙽 𝚄𝙱](https://github.com/teamlion-X/Lion-X)\n\n"
