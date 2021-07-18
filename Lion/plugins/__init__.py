@@ -59,7 +59,7 @@ lionstats = f"{lion}"
 
 LION_NAME = bot.me.first_name
 OWNER_ID = bot.me.id
-
+omkvro = bot.uid
 # count total number of groups
 
 
