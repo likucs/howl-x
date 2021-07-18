@@ -48,10 +48,10 @@ async def hmm(yes):
     pm_caption += f"{lionemoji}**Mʏ sʏsᴛᴇᴍ ɪs ᴘᴇʀғᴇᴄᴛʟʏ ʀᴜɴɴɪɢ**\n\n"
     pm_caption += f"{lionemoji} Aʙᴏᴜᴛ ᴍʏ sʏsᴛᴇᴍ ✗\n\n"
     pm_caption += f"{lionemoji} **ʍʏ օառɛʀ** ☞ [{DEFAULTUSER}](tg://user?id={fuk})\n"
-    pm_caption += f"{lionemoji} **ʟɨօռ-Ӽ**: `{lionver}`\n"
-    pm_caption += f"{lionemoji} **ȶɛʟɛȶɦօռ** ☞ {version.__version__}\n"
-    pm_caption += f"{lionemoji} **ƈɦǟռռɛʟ** ☞ [ᴊᴏɪɴ](https://t.me/LionXUpdates)\n"
-    pm_caption += f"{lionemoji} **ʟɨƈɛռֆɛ**  ☞ [𝚃𝙴𝙰𝙼 𝙻𝙸𝙾𝙽 𝚄𝙱](https://github.com/TeamLion-X)\n"
+    pm_caption += f"{lionemoji} **ʟɨօռ-Ӽ**    ☞ `{lionver}`\n"
+    pm_caption += f"{lionemoji} **ȶɛʟɛȶɦօռ**   ☞ {version.__version__}\n"
+    pm_caption += f"{lionemoji} **ƈɦǟռռɛʟ**   ☞ [ᴊᴏɪɴ](https://t.me/LionXUpdates)\n"
+    pm_caption += f"{lionemoji} **ʟɨƈɛռֆɛ**   ☞ [𝚃𝙴𝙰𝙼 𝙻𝙸𝙾𝙽 𝚄𝙱](https://github.com/TeamLion-X)\n"
     pm_caption += (
         f"{lionemoji} **©️ ƈօքʏʀɨɢɦȶ** ☞ [𝙻𝙸𝙾𝙽 𝚄𝙱](https://github.com/teamlion-X/Lion-X)\n\n"
     ) 
