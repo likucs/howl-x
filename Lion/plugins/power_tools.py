@@ -13,6 +13,7 @@ from Lion.utils import admin_cmd
 
 
 @Lion.on(admin_cmd(pattern="restart"))
+@Lion.on(sudo_cmd(pattern="restart"))
 async def _(event):
     if event.fwd_from:
         return
