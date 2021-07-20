@@ -4,15 +4,17 @@ import time
 
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterDocument
-
+from Lion.LionConfig import Config, Var
 from . import *
-
+DEFAULTUSER = Config.ALIVE_NAME if Config.ALIVE_NAME else "ℓιση x υsεя"
 
 PICS_STR = []
 
 @bot.on(admin_cmd(pattern=r"logo ?(.*)"))
 @bot.on(sudo_cmd(pattern=r"logo ?(.*)", allow_sudo=True))
 async def lg1(Lionevent):
+    global fuk
+    fuk = borg.uid
     event = await eor(Lionevent, "Processing.....")
     fnt = await get_font_file(Lionevent.client, "@Lionfonts")
     if Lionevent.reply_to_msg_id:
@@ -59,7 +61,7 @@ async def lg1(Lionevent):
     await bot.send_file(
         Lionevent.chat_id,
         file_name,
-        caption=f"**Made By**: [LionUb](t.me/lionxupdates)",
+        caption=f"**Successfully generated logo for** [{DEFAULTUSER}](tg://user?id={fuk}\n**Logo created By** [Team Lion Assistant](https://t.me/LionXsupport)\n\n© Copyright Team Lion",
     )
     await event.delete()
     try:
