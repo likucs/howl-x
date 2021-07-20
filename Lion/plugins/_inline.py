@@ -88,6 +88,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             but = [[custom.Button.inline("💬 Oᴘᴇɴ ʜᴇʟᴘ ᴍᴇɴᴜ »»", data="menu")]]
             but += [[custom.Button.inline("💡 Pɪɴɢ »»", data="pkng")]]
             but += [[Button.url("🔰 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ »»", "t.me/LionXsupport"), Button.url("🔰 Uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ", "t.me/LionXupdates")]]
+            but += [[Button.url("💜 Owner >>", f"tg://user?id={omkvro}")]]
             result = builder.photo(
                 file=HELP_PIC,
                 text="{}\n𝙲𝚄𝚁𝚁𝙴𝙽𝚃𝙻𝚈 𝙻𝙾𝙰𝙳𝙴𝙳 𝙿𝙻𝚄𝙶𝙸𝙽𝚂: {}".format(query, len(CMD_LIST)),
