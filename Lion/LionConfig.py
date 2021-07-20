@@ -242,4 +242,5 @@ if ENV:
 else:
     class Config(object):
         DB_URI = None
+        ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
         # Add your extra vars if any here
