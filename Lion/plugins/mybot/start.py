@@ -143,7 +143,7 @@ async def logs(event):
         caption="**Heroku** Lion Logs",
         buttons=[
             [Button.url("View Online", f"{url}")],
-            [Button.url("Crashed?", "t.me/LionXsupport")]
+            [Button.url("Crashed?", "t.me/discuss_group_cs")]
         ])
     await asyncio.sleep(5)
     return os.remove('logs.txt')

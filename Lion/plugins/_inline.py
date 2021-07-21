@@ -87,7 +87,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             rev_text = query[::-1]
             but = [[custom.Button.inline("💬 Oᴘᴇɴ ʜᴇʟᴘ ᴍᴇɴᴜ »»", data="menu")]]
             but += [[custom.Button.inline("💡 Pɪɴɢ »»", data="pkng")]]
-            but += [[Button.url("🔰 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ »»", "t.me/LionXsupport"), Button.url("🔰 Uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ", "t.me/LionXupdates")]]
+            but += [[Button.url("🔰 Sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ »»", "t.me/discuss_group_cs"), Button.url("🔰 Uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ", "t.me/LionXupdates")]]
             but += [[Button.url("💜 Owner >>", f"tg://user?id={omkvro}")]]
             result = builder.photo(
                 file=HELP_PIC,
@@ -98,7 +98,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         elif event.query.user_id == bot.uid and query.startswith("stats"):
             result = builder.article(
                 title="Stats",
-                text=f"**𝙻𝙸𝙾𝙽 𝚄𝙱 𝚂𝚃𝙰𝚃𝚂 𝙾𝙵 𝚃𝙷𝙴 [{DEFAULTUSER}](tg://user?id={myid})**\n\n__𝙱𝙾𝚃 𝙸𝚂 𝚂𝙼𝙾𝙾𝚃𝙷𝙻𝚈 𝚁𝚄𝙽𝙽𝙸𝙽𝙶, 𝙼𝙰𝚂𝚃𝙴𝚁!__\n\n(c) @LionXsupport",
+                text=f"**𝙻𝙸𝙾𝙽 𝚄𝙱 𝚂𝚃𝙰𝚃𝚂 𝙾𝙵 𝚃𝙷𝙴 [{DEFAULTUSER}](tg://user?id={myid})**\n\n__𝙱𝙾𝚃 𝙸𝚂 𝚂𝙼𝙾𝙾𝚃𝙷𝙻𝚈 𝚁𝚄𝙽𝙽𝙸𝙽𝙶, 𝙼𝙰𝚂𝚃𝙴𝚁!__\n\n(c) @discuss_group_cs",
                 buttons=[
                     [custom.Button.inline("Stats", data="statcheck")],
                     [Button.url("Repo", "https://github.com/Mdnoor786/Lion-X")],
@@ -136,7 +136,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                             "https://heroku.com/deploy?template=https://github.com/Mdnoor786/Lion-X",
                         ),
                     ],
-                    [Button.url("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝚃", "https://t.me/LionXsupport")],
+                    [Button.url("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝚃", "https://t.me/discuss_group_cs")],
                 ],
             )
         else:
@@ -188,7 +188,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         else:
             await event.edit(
-                f"This is the PM Security for {DEFAULTUSER} to keep away spammers and retards.\n\nProtected by [Lion](t.me/LionXsupport)"
+                f"This is the PM Security for {DEFAULTUSER} to keep away spammers and retards.\n\nProtected by [Lion](t.me/discuss_group_cs)"
             )
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"menu")))
@@ -288,7 +288,7 @@ async def _(event):
                 "Menu Closed!!", buttons=[Button.inline("Re-open Menu", data="reopen")]
             )
         else:
-            reply_pop_up_alert = "Please get your own userbot from @LionXsupport "
+            reply_pop_up_alert = "Please get your own userbot from @discuss_group_cs "
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"statcheck")))

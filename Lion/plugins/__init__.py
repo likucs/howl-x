@@ -46,7 +46,7 @@ if Var.PMSECURITY.lower() == "off":
 else:
     pm = "Enabled"
 
-LIONUSER = str(ALIVE_NAME) if ALIVE_NAME else "@LionXsupport"
+LIONUSER = str(ALIVE_NAME) if ALIVE_NAME else "@discuss_group_cs"
 
 lion = f"𝙻𝙸𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: {lionver}\n"
 lion += f"𝙻𝙾𝙶 𝙶𝚁𝙾𝚄𝙿: {log}\n"
@@ -54,7 +54,7 @@ lion += f"𝙼𝚈 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙱𝙾𝚃: {bots}\n"
 lion += f"𝙻𝚈𝙳𝙸𝙰: {lyd}\n"
 lion += f"𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁: {sudo}\n"
 lion += f"𝙿𝙼 𝚂𝙴𝙲𝚄𝚁𝙸𝚃𝚈: {pm}\n"
-lion += f"\n𝚅𝙸𝚂𝙸𝚃 @LionXsupport 𝙵𝙾𝚁 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃.\n"
+lion += f"\n𝚅𝙸𝚂𝙸𝚃 @discuss_group_cs 𝙵𝙾𝚁 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃.\n"
 lionstats = f"{lion}"
 
 LION_NAME = bot.me.first_name

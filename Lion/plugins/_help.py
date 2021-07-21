@@ -62,13 +62,13 @@ async def cmd_list(event):
                 if input_str in CMD_HELP:
                     for i in CMD_HELP[input_str]:
                         string += i
-                    string += "\n\n**© @LionXsupport**"
+                    string += "\n\n**© @discuss_group_cs**"
                     await event.edit(string)
                 else:
                     for i in CMD_LIST[input_str]:
                         string += "    " + i
                         string += "\n"
-                    string += "\n**© @LionXsupport**"
+                    string += "\n**© @discuss_group_cs**"
                     await event.edit(string)
             else:
                 await event.edit(input_str + " 𝙸𝚂 𝙽𝙾𝚃 𝙰 𝚅𝙰𝙻𝙸𝙳 𝙿𝙻𝚄𝙶𝙸𝙽!!")
