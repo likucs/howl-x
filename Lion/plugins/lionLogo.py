@@ -4,9 +4,8 @@ import time
 
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterDocument
-from Lion.LionConfig import Config, Var
 from . import *
-DEFAULTUSER = Config.ALIVE_NAME if Config.ALIVE_NAME else "ℓιση x υsεя"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ℓιση x υsεя"
 
 PICS_STR = []
 
@@ -61,7 +60,7 @@ async def lg1(Lionevent):
     await bot.send_file(
         Lionevent.chat_id,
         file_name,
-        caption=f"**Successfully generated logo for** [{DEFAULTUSER}](tg://user?id={fuk}\n**Logo created By** [Team Lion Assistant](https://t.me/LionXsupport)\n\n© Copyright Team Lion",
+        caption=f"**Successfully generated logo for** [{DEFAULTUSER}](tg://user?id={fuk})\n",
     )
     await event.delete()
     try:
