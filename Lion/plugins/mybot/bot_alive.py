@@ -8,7 +8,7 @@ from Lion import ALIVE_NAME, bot
 currentversion = "2.1"
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ℓιση x υsεт"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ңøωȴ x υsεт"
 ASSIS_PIC = os.environ.get("ASSIS_PIC", None)
 if ASSIS_PIC is None:
     PM_IMG = "https://telegra.ph/file/af3b74010808a26480693.jpg"

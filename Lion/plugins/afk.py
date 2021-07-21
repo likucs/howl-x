@@ -16,7 +16,7 @@ global last_afk_message  # pylint:disable=E0602
 global afk_start  # pylint:disable=E0602
 global afk_end  # pylint:disable=E0602
 # --=============================================--#
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ℓιση x υsεя"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ңøωȴ x υsεя"
 USER_AFK = {}
 afk_time = None
 last_afk_message = {}

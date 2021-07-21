@@ -8,7 +8,7 @@ from Lion import CMD_HELP
 from Lion.__init__ import StartTime
 from Lion.plugins import ALIVE_NAME, OWNER_ID
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ℓιση υsεя"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ңøωȴ υsεя"
 
 
 def get_readable_time(seconds: int) -> str:

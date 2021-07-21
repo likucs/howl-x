@@ -121,7 +121,7 @@ async def azipp(event):
             file = image.name
         else:
             file = await event.download_media(reply.media, "zip/")
-    await xx.edit(f"∂σωηℓσα∂ε∂ `{file}` sυccsғυℓℓү...\n©тεαм ℓιση")
+    await xx.edit(f"∂σωηℓσα∂ε∂ `{file}` sυccsғυℓℓү...\n©тεαм ңøωȴ")
 
 
 @Lion.on(admin_cmd(pattern="dozip ?(.*)"))

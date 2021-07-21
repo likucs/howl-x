@@ -8,7 +8,7 @@ from Lion import ALIVE_NAME, StartTime, lionver
 from Lion.helper import functions as dcdef 
 from Lion.LionConfig import Config, Var
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ℓιση x υsεя"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ңøωȴ x υsεя"
 
 # Thanks to Sipak bro and Aryan..
 # animation Idea by @ItzSipak && @Hell boy_pikachu

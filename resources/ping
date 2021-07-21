@@ -4,7 +4,7 @@ from datetime import datetime
 from Lion.__init__ import StartTime
 from Lion.plugins import ALIVE_NAME, OWNER_ID, TG_BOT_USER_NAME_BF_HER
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ℓιση υsεя"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ңøωȴ υsεя"
 
 def get_readable_time(seconds: int) -> str:
     count = 0

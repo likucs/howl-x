@@ -5,7 +5,7 @@ import time
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterDocument
 from . import *
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ℓιση x υsεя"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ңøωȴ x υsεя"
 
 PICS_STR = []
 
