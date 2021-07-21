@@ -24,8 +24,8 @@ requirements_path = path.join(
 
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
-GIT_REPO_NAME = "Lion-X"
-UPSTREAM_REPO_URL = "https://github.com/Mdnoor786/Lion-X"
+GIT_REPO_NAME = "howl-x"
+UPSTREAM_REPO_URL = "https://github.com/likucs/howl-x"
 
 xxxx = CMD_HNDLR if CMD_HNDLR else "."
 
