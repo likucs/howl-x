@@ -20,7 +20,7 @@ global fuk
 fuk = borg.uid
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/33f7e8dc3bb38cbe25991.jpg"
+file1 = "https://telegra.ph/file/60b3e48f59cb8b973c4a5.jpg"
 """ =======================CONSTANTS====================== """
 # ======CONSTANTS=========#
 CUSTOM_ALIVE = (
