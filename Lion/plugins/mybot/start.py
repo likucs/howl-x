@@ -44,7 +44,7 @@ telegraph = Telegraph()
 r = telegraph.create_account(short_name=Config.TELEGRAPH_SHORT_NAME)
 auth_url = r["auth_url"]
 ################--CONSTANTS-END-#################
-poto = "https://telegra.ph/file/28ed48fae7e23192af2cc.jpg"
+poto = "https://telegra.ph/file/7ee38a29ade8b4549c639.jpg"
 # start-others
 
 
@@ -85,7 +85,7 @@ async def start_all(event):
                                   caption=startotherena,
                                   buttons=[
                                       [Button.url(
-                                          "Lion", url="https://github.com/TeamLion-X/Lion-X")],
+                                          "Howl", url="https://github.com/likucs/howl-x")],
                                       [Button.inline(
                                           "Whats this?", data="Lion")]
                                   ]
@@ -95,7 +95,7 @@ async def start_all(event):
                                      startotherena,
                                      buttons=[
                                          [Button.url(
-                                             "Lion", url="https://github.com/TeamLion-X/Lion-X")],
+                                             "Howl", url="https://github.com/likucs/howl-x")],
                                          [Button.inline(
                                              "Whats this?", data="Lion")]
                                      ]
@@ -117,7 +117,7 @@ async def owner(event):
                                  [Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ",
                                                 data="telebroad")],
                                  [Button.url("ᏂᎧᏇᏝ Sᴜᴘᴘᴏʀᴛ",
-                                             url="https://t.me/LionXSupport")]
+                                             url="https://t.me/discuss_group_cs")]
                              ])
 
 
@@ -182,10 +182,10 @@ async def settings(event):
 async def settings(event):
     await event.edit("Browse through the available options:",
                      buttons=[
-                         [(Button.url("Repository", url="https://github.com/TeamLion-X/Lion-X")),
-                          (Button.url("Deploy", url="https://dashboard.heroku.com/new?template=https://github.com/TeamLion-X/Lion-X"))],
+                         [(Button.url("Repository", url="https://github.com/likucs/howl-x")),
+                          (Button.url("Deploy", url="https://dashboard.heroku.com/new?template=https://github.com/likucs/howl-x"))],
                          [Button.url("Support",
-                                     url="https://t.me/LionXSupport")]
+                                     url="https://t.me/discuss_group_cs")]
                      ])
 
 
