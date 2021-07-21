@@ -51,9 +51,9 @@ async def hmm(yes):
     pm_caption += f"{lionemoji} **ɧơῳɩ-Ӽ**    ☞ `{lionver}`\n"
     pm_caption += f"{lionemoji} **ȶɛʟɛȶɦօռ**   ☞ {version.__version__}\n"
     pm_caption += f"{lionemoji} **ƈɦǟռռɛʟ**   ☞ [ᴊᴏɪɴ](https://t.me/LionXUpdates)\n"
-    pm_caption += f"{lionemoji} **ʟɨƈɛռֆɛ**   ☞ [𝚃𝙴𝙰𝙼 𝙻𝙸𝙾𝙽 𝚄𝙱](https://github.com/TeamLion-X)\n"
+    pm_caption += f"{lionemoji} **ʟɨƈɛռֆɛ**   ☞ [𝚃𝙴𝙰𝙼 𝙷𝙾𝚆𝙻 𝚄𝙱](https://github.com/TeamLion-X)\n"
     pm_caption += (
-        f"{lionemoji} **©️ ƈօքʏʀɨɢɦȶ** ☞ [𝙻𝙸𝙾𝙽 𝚄𝙱](https://github.com/teamlion-X/Lion-X)\n\n"
+        f"{lionemoji} **©️ ƈօքʏʀɨɢɦȶ** ☞ [𝙷𝙾𝚆𝙻 𝚄𝙱](https://github.com/teamlion-X/Lion-X)\n\n"
     ) 
     pm_caption += f"{lionemoji} **ɧơῳɩ ʊքȶɨʍɛ** ☞ {uptime}\n\n"
     on = await borg.send_file(

@@ -422,7 +422,7 @@ def start_mybot(shortname):
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
         print("𝙸𝙼𝙿𝙾𝚁𝚃𝙸𝙽𝙶 𝙼𝙾𝙳𝚄𝙻𝙴𝚂 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃.")
-        print("𝙻𝙸𝙾𝙽 - 𝙸𝙼𝙿𝙾𝚁𝚃𝙴𝙳 " + shortname)
+        print("𝙷𝙾𝚆𝙻 - 𝙸𝙼𝙿𝙾𝚁𝚃𝙴𝙳 " + shortname)
     else:
         import importlib
         import sys

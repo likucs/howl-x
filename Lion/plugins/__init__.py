@@ -48,7 +48,7 @@ else:
 
 LIONUSER = str(ALIVE_NAME) if ALIVE_NAME else "@discuss_group_cs"
 
-lion = f"𝙻𝙸𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: {lionver}\n"
+lion = f"𝙷𝙾𝚆𝙻 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: {lionver}\n"
 lion += f"𝙻𝙾𝙶 𝙶𝚁𝙾𝚄𝙿: {log}\n"
 lion += f"𝙼𝚈 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙱𝙾𝚃: {bots}\n"
 lion += f"𝙻𝚈𝙳𝙸𝙰: {lyd}\n"

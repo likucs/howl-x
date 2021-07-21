@@ -58,7 +58,7 @@ async def animepp():
 async def main(event):
 
     # Owner @NihiNivi
-    await event.edit("**Starting Gamer Profile Pic.\n\n𝙼𝙾𝙳𝙳𝙴𝙳 𝙱𝚈 𝙻𝙸𝙾𝙽 𝚄𝙱")
+    await event.edit("**Starting Gamer Profile Pic.\n\n𝙼𝙾𝙳𝙳𝙴𝙳 𝙱𝚈 𝙷𝙾𝚆𝙻 𝚄𝙱")
 
     while True:
 
