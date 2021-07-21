@@ -44,5 +44,5 @@ async def _(event):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     await eor(event,
-        f"**█░░ █ █▀█ █▄░█\n█▄▄ █ █▄█ █░▀█**\n\n➤ **тιмє тαкєи:** `{ms}` мѕ \n➤ **𝐏𝐄𝐑𝐔 𝐌𝐀𝐒𝐓𝐄𝐑:** `[{DEFAULTUSER}](tg://user?id={OWNER_ID})`\n**➤ 𝐋𝐈𝐎𝐍 𝐀𝐒𝐒𝐈𝐒𝐓𝐀𝐍𝐓:** __@{TG_BOT_USER_NAME}__\n𝐂𝐔𝐑𝐑𝐄𝐍𝐓 𝐕𝐄𝐑: `2.2`"
+        f"**█░░ █ █▀█ █▄░█\n█▄▄ █ █▄█ █░▀█**\n\n➤ **тιмє тαкєи:** `{ms}` мѕ \n➤ **𝐏𝐄𝐑𝐔 𝐌𝐀𝐒𝐓𝐄𝐑:** `[{DEFAULTUSER}](tg://user?id={OWNER_ID})`\n**➤ 𝐇𝐎𝐖𝐋 𝐀𝐒𝐒𝐈𝐒𝐓𝐀𝐍𝐓:** __@{TG_BOT_USER_NAME}__\n𝐂𝐔𝐑𝐑𝐄𝐍𝐓 𝐕𝐄𝐑: `2.2`"
     )
