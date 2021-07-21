@@ -66,7 +66,7 @@ class Var(object):
     LESS_SPAMMY = os.environ.get("LESS_SPAMMY", None)
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-    HELP_PIC = os.environ.get("HELP_PIC", "telegra.ph/file/28ed48fae7e23192af2cc.jpg")
+    HELP_PIC = os.environ.get("HELP_PIC", "https://telegra.ph/file/60b3e48f59cb8b973c4a5.jpg")
     TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
     TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", None)
     NO_SONGS = bool(os.environ.get("NO_SONGS", False))
