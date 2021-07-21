@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "LionXsupport"
+          find: "𝙻𝙸𝙾𝙽"
 
-          replace: "discuss_group_cs"
+          replace: "𝙷𝙾𝚆𝙻"
 
       - name: Create Pull Request
 
