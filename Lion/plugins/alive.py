@@ -28,7 +28,7 @@ CUSTOM_ALIVE = (
     if Var.CUSTOM_ALIVE
     else "ɧơῳɩ Ӽ ʊֆɛʀɮօȶ ɨֆ օռʟɨռɛ!"
 )
-ALV_PIC = Var.ALIVE_PIC if Var.ALIVE_PIC else "https://telegra.ph/file/33f7e8dc3bb38cbe25991.jpg"
+ALV_PIC = Var.ALIVE_PIC if Var.ALIVE_PIC else "https://telegra.ph/file/08810555d81839e509272.jpg"
 lionemoji = Var.CUSTOM_ALIVE_EMOJI if Var.CUSTOM_ALIVE_EMOJI else "**〢**"
 if Config.SUDO_USERS:
     sudo = "Enabled"
