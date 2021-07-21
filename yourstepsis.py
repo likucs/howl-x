@@ -1,6 +1,2 @@
-from os import system
-system("git clone https://github.com/likucs/howl-x && cd Lion-X && python3 -m Lion")
-# if got error
-print(" Sʀʏʏ ᴜɴғᴏʀᴛᴜɴᴀᴛᴇʟʏ ʏᴏᴜ ʜᴀᴠᴇ ɢᴏᴛ ᴇʀʀᴏʀ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴀᴛ @LionXsupport")
-# Script written for stop heroku suspension
-# use with credit else gay
+import os
+os.system("git clone https://github.com/likucs/howl-x /root/Lion-X && mkdir /root/Lion-X/bin/ && cd /root/Lion-X/ && chmod +x /usr/local/bin/* && python3 -m Lion")
