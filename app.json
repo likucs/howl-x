@@ -142,17 +142,17 @@
   },
   "ALIVE_PIC": {
    "description": "telegra.ph link to theimage you want as alive pic, leave blank for sticker",
-   "value": "",
+   "value": "https://telegra.ph/file/60b3e48f59cb8b973c4a5.jpg",
    "required": false
   },
   "HELP_PIC": {
    "description": "telegra.ph link of the image you want to set in help menu",
-   "value": "",
+   "value": "https://telegra.ph/file/7ee38a29ade8b4549c639.jpg",
    "required": "false"
   },
   "PMPERMIT_PIC": {
   "description": "telegra.ph link to theimage you want as pmpermit pic, leave blank for default one!",
-  "value": "",
+  "value": "https://telegra.ph/file/60b3e48f59cb8b973c4a5.jpg",
   "required": false
   },
   "TZ": {
