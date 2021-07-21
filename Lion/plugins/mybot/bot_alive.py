@@ -19,10 +19,10 @@ else:
 pm_caption = " ►**ɦɛʏʏ ʏօʊʀ ǟֆֆɨֆȶǟռȶ ɨֆ `օռʟɨռɛ`\n\n"
 pm_caption += "► **Sʏsᴛᴇᴍ sᴛᴀᴛs**\n"
 pm_caption += "► **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ:** `1.21.1` \n"
-pm_caption += f"► **Lɪᴏɴ X ᴀssɪᴛᴀɴᴛ ᴠᴇʀsɪᴏɴ** : `{currentversion}`\n"
+pm_caption += f"► **ᏂᎧᏇᏝ X ᴀssɪᴛᴀɴᴛ ᴠᴇʀsɪᴏɴ** : `{currentversion}`\n"
 pm_caption += f"► **Mʏ ᴍᴀsᴛᴇʀ** : {DEFAULTUSER} \n"
-pm_caption += "► **Lɪᴏɴ X ʟɪᴄᴇɴsᴇ** : [GNU General Public License v3.0](https://github.com/teamlion-X/Lion-X/blob/master/LICENSE)\n"
-pm_caption += "► **Cᴏᴘʏʀɪɢʜᴛ** :[LɪᴏɴX](https://github.com/teamlion-X/Lion-X)\n"
+pm_caption += "► **ᏂᎧᏇᏝ X ʟɪᴄᴇɴsᴇ** : [GNU General Public License v3.0](https://github.com/teamlion-X/Lion-X/blob/master/LICENSE)\n"
+pm_caption += "► **Cᴏᴘʏʀɪɢʜᴛ** :[ᏂᎧᏇᏝX](https://github.com/teamlion-X/Lion-X)\n"
 light = [[Button.url("✧ʀᴇᴘᴏsɪᴛᴏʀʏ✧",
                      "https://github.com/teamlion-X/Lion-X"),
           Button.url("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ",

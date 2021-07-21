@@ -116,7 +116,7 @@ async def owner(event):
                                      "Sᴛᴀᴛs ⚙️", data="stats")],
                                  [Button.inline("Bʀᴏᴀᴅᴄᴀsᴛ",
                                                 data="telebroad")],
-                                 [Button.url("Lɪᴏɴ Sᴜᴘᴘᴏʀᴛ",
+                                 [Button.url("ᏂᎧᏇᏝ Sᴜᴘᴘᴏʀᴛ",
                                              url="https://t.me/LionXSupport")]
                              ])
 
